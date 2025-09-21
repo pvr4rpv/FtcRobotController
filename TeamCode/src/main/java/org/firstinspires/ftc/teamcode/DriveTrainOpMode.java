@@ -19,6 +19,7 @@ public class DriveTrainOpMode extends OpMode {
         rightDrive.setDirection(DcMotor.Direction.REVERSE);
 
         telemetry.addData("Status", "Initialized");
+        telemetry.addData("Status", "Debug1");
     }
 
     @Override

@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @TeleOp
-public class DriveTrain4WOpMode extends OpMode {
+public class DriveTrainFourWheelOpMode extends OpMode {
 
     private DcMotor leftFront = null;
     private DcMotor rightFront = null;
